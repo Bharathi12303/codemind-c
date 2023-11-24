@@ -1,8 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int e,m,p,c,cs;
-    scanf("%d%d%d%d%d",&e,&m,&p,&c,&cs);
-    if(e<=34||m<=34||p<=34||c<=34||cs<=34) printf("FAILED");
-    else printf("PASSED");
+    int eng,mat,phy,che,cs;
+    scanf("%d%d%d%d%d",&eng,&mat,&phy,&che,&cs);
+    if(eng>34 && mat>34 && phy>34 && che>34 && cs>34)
+    {
+        printf("PASSED");
+    }
+    else
+    {
+        printf("FAILED");
+    }
 }
