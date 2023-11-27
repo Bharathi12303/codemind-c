@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,res;
+    int x,y,z,a;
     scanf("%d%d",&x,&y);
-    res=(y-x);
-    printf("%d",res);
+    z=x-y,a=y-x;
+    if(x>y) printf("%d",z);
+    else printf("%d",a);
+    
 }
