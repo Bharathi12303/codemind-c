@@ -1,10 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int x,y;
-    scanf("%d%d",&x,&y);
-    if(30*y<=x)
-    printf("YES");
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a>=30*b) printf("YES");
     else printf("NO");
-    
 }
