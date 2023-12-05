@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    scanf("%d",&x);
-    if(x==1) printf("Monday");
-    else if(x==2) printf("Tuesday");
-    else if(x==3) printf("Wednesday");
-    else if(x==4) printf("Thursday");
-    else if(x==5) printf("Friday");
-    else if(x==6) printf("Saturday");
-    else if(x==7) printf("Sunday");
+    int a;
+    scanf("%d",&a);
+    if(a==1) printf("Monday");
+    else if(a==2) printf("Tuesday");
+    else if(a==3) printf("Wednesday");
+    else if(a==4) printf("Thursday");
+    else if(a==5) printf("Friday");
+    else if(a==6) printf("Saturday");
+    else if(a==7) printf("SUnday");
     else printf("Invalid input");
 }
