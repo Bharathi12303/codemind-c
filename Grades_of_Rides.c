@@ -1,12 +1,12 @@
 #include<stdio.h>
-int main() 
+int main()
 {
-    int hf,sf,spf;
-    scanf("%d%d%d",&hf,&sf,&spf);
-    if(hf>50 && sf>60 && spf>100) printf("10");
-    else if(hf>50 && sf>60) printf("9");
-    else if(sf>60 && spf>100) printf("8");
-  else if(hf>50 && spf>100) printf("7");
-  else if(hf>50 || sf>60 || spf>100) printf("6");
-  else printf("5");
+    int hf,s,sf;
+    scanf("%d%d%d",&hf,&s,&sf);
+    if(hf>50 && s>60 && sf>100) printf("10");
+    else if(hf>50 && s>60) printf("9");
+    else if(s>60 && sf>100) printf("8");
+    else if(hf>50 && sf>100) printf("7");
+    else if(hf>50 || s>60 || sf>100) printf("6");
+    else printf("5");
 }
