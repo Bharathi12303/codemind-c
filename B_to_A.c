@@ -3,8 +3,9 @@ int main()
 {
     int a,b,i;
     scanf("%d%d",&a,&b);
-    for(i=b;i>=a;i--)
+    for(i=b;i<=b;i--)
     {
-        printf("%d ",i);
+        if(i<a) break;
+        else printf("%d ",i);
     }
 }
