@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
-    scanf("%d",&n);
-    for(i=n;i<=n;i--)
+    int a,n,i;
+    scanf("%d",&a);
+    for(i=a;i<=a;i--)
     {
-       printf("%d ",i); 
-      if(i==1) break;
+        if(i<1) break;
+        printf("%d ",i);
     }
 }
