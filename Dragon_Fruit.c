@@ -3,6 +3,8 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(a>=4 && (a%2==0)) printf("YES");
+    if(a>=4 && a%2==0) printf("YES");
     else printf("NO");
 }
+
+
