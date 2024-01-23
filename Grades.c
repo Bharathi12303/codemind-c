@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int phy,che,bio,mat,cs;
-    scanf("%d%d%d%d%d",&phy,&che,&bio,&mat,&cs);
-    float percentage=(phy+che+bio+mat+cs)/5;
-    if(percentage>=90) printf("Grade A");
-    else if(percentage>=80) printf("Grade B");
-    else if(percentage>=70) printf("Grade C");
-    else if(percentage>=60) printf("Grade D");
-    else if(percentage>=40) printf("Grade E");
+    int a,b,c,d,e,q,p;
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    q=a+b+c+d+e;
+    p=(q*100)/500;
+    if(p>=90) printf("Grade A");
+    else if(p>=80) printf("Grade B");
+    else if(p>=70) printf("Grade C");
+    else if(p>=60) printf("Grade D");
+    else if(p>=40) printf("Grade E");
     else printf("Grade F");
 }
