@@ -5,16 +5,10 @@ int main()
     scanf("%d",&t);
     while(t--)
     {
-        scanf("%d%d%d",&n,&m,&k);
-        if(m-k>=n)
-        {
-            printf("YES
+     scanf("%d%d%d",&n,&m,&k);
+     if(m-k>=n) printf("YES
 ");
-        }
-        else
-        {
-            printf("NO
+     else printf("NO
 ");
-        }
     }
 }
